@@ -1,1 +1,43 @@
+#features {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+ }
+  
+ #text-img {
+   padding-left:40px;
+   
+ }
+ 
+ img {max-width: 100%;}
+ #img-media {display:flex;
+           align-items:center;}
+ 
+ #video {width:fit-content;
+         margin:auto;}
+ 
+ #footer {
+   background-color: grey;
+   padding:45px 50px;
+   margin: 10px 9px 10px 2px;
+   box-sizing:border-box;
+   width:100%;
+ }
+
+ 
+ #footer #foot p {
+   color:#000;
+   font-size:10px;
+   text-align: right;
+   
+ }
+ 
+ #footer #foot p #link{
+   color:#000;
+   font-size:14px;
+   font-weight:bold;
+   transition:ease .25s;
+ }
+ 
+
 
