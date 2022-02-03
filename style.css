@@ -1,3 +1,138 @@
+/*hfenvnoenovi*/
+
+*{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body{
+      background-color: #f0f0f0;
+      font-family: sans-serif;
+      line-height: 20px;
+      letter-spacing: 1px;
+    }
+
+    #header{
+      width: 100%;
+      padding: 30px 70px;
+      background: #f0f0f0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+    #nav-bar{
+      width: fit-content;
+    }
+
+    #nav-bar ul{
+      display: flex;
+      list-style-type: none;
+      width: fit-content;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #nav-bar ul li a{
+      display: inline-block;
+      padding: 10px 60px;
+      text-decoration: none;
+      color: #0a0a0a;
+    }
+
+
+    h2{
+      text-align: center;
+    }
+
+    #form{
+      width: fit-content;
+      margin: 20px auto;
+    }
+
+    #form input{
+      display: block;
+      margin: 20px auto;
+      width: 300px;
+      height: 30px;
+      border: 1px solid #000;
+      padding-left: 15px;
+    }
+
+    #form #submit{
+      color: #000;
+      background: yellow;
+      border: none;
+      outline: none;
+      width: 150px;
+      border-radius: 5px;
+      font-size: 18px;
+      padding: 0;
+      cursor: pointer;
+    }
+
+    #pricing{
+      width: 70%;
+      margin: 30px auto;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(100px, 1fr));
+      grid-column-gap: 30px;
+    }
+
+    .gridtem{
+      border: 1px solid black;
+      width: 100%;
+      height: auto;
+      min-height: 20px;
+      text-align: center;
+    }
+
+    .gridtem h4{
+      padding: 10px;
+      background: #c0c0c0;
+    }
+
+    .gridtem *{
+      margin-bottom: 10px;
+    }
+
+    .gridtem button{
+      background: yellow;
+      font-size: 20px;
+      padding: 5px 10px;
+      border: none;
+      cursor: pointer;
+    }
+    .gridtem .details{
+      width: 50%;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+section{
+  margin: 20px auto;
+}
+
+@media only screen and (max-width: 400px){
+  img, iframe{
+    width: 90%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 #features {
     display:flex;
     align-items: center;
@@ -13,7 +148,7 @@
  #img-media {display:flex;
            align-items:center;}
  
- #video {width:fit-content;
+ .video {width:fit-content;
          margin:auto;}
  
  #footer {
